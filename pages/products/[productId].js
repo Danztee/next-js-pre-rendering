@@ -17,8 +17,6 @@ function Product({ product }) {
   );
 }
 
-export default Product;
-
 export async function getStaticProps(context) {
   const { params } = context;
   const response = await fetch(
@@ -41,3 +39,5 @@ export async function getStaticPaths() {
     fallback: true,
   };
 }
+
+export default Product;

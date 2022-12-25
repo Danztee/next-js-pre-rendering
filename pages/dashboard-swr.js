@@ -9,7 +9,7 @@ const fetcher = async () => {
 const DashboardSWR = () => {
   const { data, error } = useSWR("dashboard", fetcher);
 
-  if (error) return "An error has occured";
+  if (error) return "An error has occurred";
   if (!data) return "Loading";
 
   return (

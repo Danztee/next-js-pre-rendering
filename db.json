@@ -3,13 +3,13 @@
     "posts": 5,
     "likes": 100,
     "followers": 20,
-    "following": 500
+    "following": 800
   },
   "news": [
     {
       "id": 1,
       "title": "News Article 1",
-      "description": "Description 1",
+      "description": "Description 1 new",
       "category": "sports"
     },
     {
@@ -25,23 +25,23 @@
       "category": "sports"
     }
   ],
-  "product": [
+  "products": [
     {
       "id": 1,
       "title": "Product 1",
-      "price": 1000,
+      "price": 500,
       "description": "Description 1"
     },
     {
       "id": 2,
       "title": "Product 2",
-      "price": 2000,
+      "price": 4050,
       "description": "Description 2"
     },
     {
       "id": 3,
       "title": "Product 3",
-      "price": 2500,
+      "price": 500,
       "description": "Description3"
     }
   ],
